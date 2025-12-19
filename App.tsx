@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Layout } from './components/Layout';
-import { UPLEAD_REVIEW } from './constants';
+import { KASPR_REVIEW } from './constants';
 
 const App: React.FC = () => {
-  const content = UPLEAD_REVIEW;
+  const content = KASPR_REVIEW;
 
   return (
     <Layout>
@@ -50,7 +50,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* What is UpLead + Screenshot 1 */}
+      {/* What is Kaspr + Screenshot 1 */}
       <section id="features" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-16 items-center">
@@ -72,11 +72,11 @@ const App: React.FC = () => {
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white p-2">
                 <img 
                   src={content.landingScreenshot} 
-                  alt={`${content.competitorName} Platform interface`} 
+                  alt={`${content.competitorName} Extension Interface`} 
                   className="w-full h-auto rounded-lg"
                 />
               </div>
-              <p className="mt-4 text-center text-sm text-gray-400 italic">Exploring the {content.competitorName} search and verification interface.</p>
+              <p className="mt-4 text-center text-sm text-gray-400 italic">Exploring the {content.competitorName} real-time data capture on LinkedIn.</p>
             </div>
           </div>
           
@@ -94,35 +94,35 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* Accuracy & Pricing Focus */}
+      {/* Review Screenshot + Mobile Focus */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-16 items-start">
             <div className="w-full lg:w-1/2">
-              <h2 className="text-4xl font-extrabold tracking-tight mb-8">Accuracy Benchmark</h2>
+              <h2 className="text-4xl font-extrabold tracking-tight mb-8">Real-Time Data Verdict</h2>
               <div className="bg-white rounded-2xl border border-gray-100 shadow-xl p-3 overflow-hidden">
                 <img 
                   src={content.reviewScreenshot} 
-                  alt={`${content.competitorName} User Feedback`} 
+                  alt={`${content.competitorName} User Dashboard`} 
                   className="w-full h-auto rounded-lg"
                 />
               </div>
               <div className="mt-8 p-6 bg-blue-50 rounded-xl border border-blue-100">
                 <p className="text-[#3477E4] font-medium italic">
-                  "If data accuracy is your top priority, UpLead's 95% guarantee is a game-changer. It justified the investment through undeniable reliability gains."
+                  "For LinkedIn-heavy teams, {content.competitorName} is a significant time-saver. Its ability to retrieve direct-dial numbers with one click is its biggest asset."
                 </p>
               </div>
             </div>
             <div className="w-full lg:w-1/2">
-              <h2 className="text-4xl font-extrabold tracking-tight mb-8">Data & Pricing Logic</h2>
+              <h2 className="text-4xl font-extrabold tracking-tight mb-8">Accuracy & Pricing</h2>
               <div className="space-y-6 mb-12">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 group hover:border-[#3477E4] transition-colors">
-                  <div className="text-gray-500 text-xs font-bold uppercase mb-1">Guaranteed Quality</div>
-                  <div className="text-2xl font-bold text-[#121212]">{content.accuracyData.email}</div>
+                  <div className="text-gray-500 text-xs font-bold uppercase mb-1">Mobile Coverage</div>
+                  <div className="text-2xl font-bold text-[#121212]">{content.accuracyData.mobile}</div>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 group hover:border-[#3477E4] transition-colors">
-                  <div className="text-gray-500 text-xs font-bold uppercase mb-1">Pricing Model</div>
-                  <div className="text-2xl font-bold text-[#121212]">Unlimited Team Users</div>
+                  <div className="text-gray-500 text-xs font-bold uppercase mb-1">Email Verification</div>
+                  <div className="text-2xl font-bold text-[#121212]">Multi-Source Validation</div>
                 </div>
               </div>
               <div className="bg-[#121212] text-white p-8 rounded-2xl border border-gray-800 shadow-2xl">
@@ -147,7 +147,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-extrabold tracking-tight mb-4">Scalelist vs. {content.competitorName}</h2>
-            <p className="text-lg text-gray-600">Why specialized hygiene tools often outperform static databases for ongoing outreach.</p>
+            <p className="text-lg text-gray-600">The difference between a profile capture tool and a high-accuracy enrichment engine.</p>
           </div>
           
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
@@ -161,24 +161,24 @@ const App: React.FC = () => {
               </thead>
               <tbody>
                 <tr className="border-b border-gray-50">
-                  <td className="py-6 px-8 font-semibold text-gray-700">Primary Goal</td>
-                  <td className="py-6 px-8 text-gray-500">Building new lists from scratch</td>
-                  <td className="py-6 px-8 font-bold text-[#3477E4]">Enriching and monitoring your lists</td>
+                  <td className="py-6 px-8 font-semibold text-gray-700">Primary Workflow</td>
+                  <td className="py-6 px-8 text-gray-500">Manual capture from LinkedIn profiles</td>
+                  <td className="py-6 px-8 font-bold text-[#3477E4]">Bulk enrichment of custom databases</td>
                 </tr>
                 <tr className="border-b border-gray-50">
                   <td className="py-6 px-8 font-semibold text-gray-700">Data Cleaning</td>
-                  <td className="py-6 px-8 text-gray-500">Standard verification</td>
-                  <td className="py-6 px-8 font-bold text-[#3477E4]">AI-Powered Format & Emojis Removal</td>
+                  <td className="py-6 px-8 text-gray-500">Minimal (Profile scrape)</td>
+                  <td className="py-6 px-8 font-bold text-[#3477E4]">AI-Powered (Clean names, remove LLC, emojis)</td>
                 </tr>
                 <tr className="border-b border-gray-50">
-                  <td className="py-6 px-8 font-semibold text-gray-700">Monitoring</td>
-                  <td className="py-6 px-8 text-gray-500">None (Static Export)</td>
-                  <td className="py-6 px-8 font-bold text-[#3477E4]">Weekly Automated Job-Change Alerts</td>
+                  <td className="py-6 px-8 font-semibold text-gray-700">Data Sources</td>
+                  <td className="py-6 px-8 text-gray-500">LinkedIn focused</td>
+                  <td className="py-6 px-8 font-bold text-[#3477E4]">Multi-Provider (10+ verified sources)</td>
                 </tr>
                 <tr className="border-b border-gray-100">
-                  <td className="py-6 px-8 font-semibold text-gray-700">Cost Structure</td>
-                  <td className="py-6 px-8 text-gray-500">Credit-based (Higher cost/lead)</td>
-                  <td className="py-6 px-8 font-bold text-[#3477E4]">Flexible high-volume enrichment</td>
+                  <td className="py-6 px-8 font-semibold text-gray-700">Prospect Monitoring</td>
+                  <td className="py-6 px-8 text-gray-500">None (Static)</td>
+                  <td className="py-6 px-8 font-bold text-[#3477E4]">Automated tracking of job changes</td>
                 </tr>
               </tbody>
             </table>
@@ -257,7 +257,7 @@ const App: React.FC = () => {
             </h2>
             
             <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto relative z-10">
-              Stop settling for data that expires the moment you export it. Experience the power of verified, monitored prospect lists that keep your sales pipeline fresh and active.
+              Don't settle for manual captures or decaying data. Experience the power of verified, high-volume enrichment that cleans and monitors your leads automatically.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">

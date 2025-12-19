@@ -7,69 +7,69 @@ export const COLORS = {
   white: '#FFFFFF',
 };
 
-export const UPLEAD_REVIEW: ReviewContent = {
-  competitorName: "UpLead",
+export const KASPR_REVIEW: ReviewContent = {
+  competitorName: "Kaspr",
   year: "2025",
-  headline: "UpLead Review 2025: Is It the Best B2B Data Provider?",
-  intro: "In the competitive landscape of B2B sales, your lead data quality determines your success. UpLead focuses on a high-accuracy approach, positioning itself as the go-to provider for businesses that prioritize quality over sheer volume.",
-  summaryVerdict: "UpLead is an exceptional tool for SMBs where data accuracy is the top priority. Its 95% accuracy guarantee and real-time verification process are game-changers for reducing bounce rates. While cost-per-credit is higher than bulk scrapers, the lack of per-seat pricing offers incredible value for growing teams.",
-  whatIsText: "UpLead is a B2B lead generation platform providing access to a database of 160M+ verified business contacts. It aims to bridge the gap between expensive enterprise databases and low-quality scrapers by offering premium data accuracy, technographics, and buyer intent signals.",
+  headline: "Kaspr Review: An In-Depth Analysis for Sales Professionals",
+  intro: "In B2B sales, speed is everything. Kaspr has carved out a niche as a specialized solution for extracting contact information directly from LinkedIn. But is its database of 500M+ contacts reliable enough for your pipeline?",
+  summaryVerdict: "Kaspr is an excellent choice for SDRs and recruiters who live on LinkedIn and prioritize finding direct-dial phone numbers. Its Chrome extension is one of the most intuitive on the market. However, email quality can be inconsistent, and the credit system is less flexible than competitors like Scalelist.",
+  whatIsText: "Kaspr is a B2B sales prospecting tool specifically designed to integrate with LinkedIn. It operates primarily through a Chrome extension that reveals verified email addresses and phone numbers directly on LinkedIn profiles, Sales Navigator, and Recruiter Lite.",
   landingScreenshot: "input_file_0.png",
   reviewScreenshot: "input_file_1.png",
   useCases: [
-    "Targeted Prospecting: Building lists using 50+ advanced search filters.",
-    "Data Enrichment: Revitalizing stale lists with 50+ fresh data points.",
-    "Intent-Based Selling: Identifying accounts actively researching your solutions.",
-    "Technographic Targeting: Reaching prospects based on their specific tech stack."
+    "LinkedIn Prospecting: Instant retrieval of emails and phones from profiles.",
+    "List Building: Organizing revealed contacts into targeted segments.",
+    "Workflow Automation: Automatically enriching members of LinkedIn groups or events.",
+    "CRM Integration: Syncing enriched leads directly to HubSpot, Salesforce, or Pipedrive."
   ],
   howItWorks: {
-    title: "The UpLead Accuracy Engine",
+    title: "The Kaspr Prospecting Motion",
     points: [
-      { title: "Real-Time Verification", description: "Every email is verified the moment you download or export it to ensure deliverability." },
-      { title: "95% Accuracy Guarantee", description: "UpLead refunds your credit if an email bounces, a unique commitment in the industry." },
-      { title: "Intent Signals", description: "Powered by Bombora, identifying companies with active buying search behavior." }
+      { title: "One-Click Extension", description: "Overlay widget on LinkedIn profiles for instant real-time data retrieval." },
+      { title: "Multi-Source Validation", description: "Checks multiple data sources to validate phone and email details before presentation." },
+      { title: "Centralized Dashboard", description: "Intermediate storage for managing leads before exporting to CRM." }
     ]
   },
   features: {
-    title: "Key Platform Functionality",
+    title: "Key Functionality Audit",
     items: [
-      { title: "Advanced Search Filters", description: "SIC codes, annual revenue, technographics, and management levels.", verdict: "Verdict: Extremely granular." },
-      { title: "Data Enrichment", description: "Upload your own CSV and append missing emails, phones, and social profiles." },
-      { title: "Chrome Extension", description: "Find contacts while browsing LinkedIn or company websites instantly.", verdict: "Verdict: Seamless workflow." },
-      { title: "CRM Integrations", description: "Native sync with Salesforce, HubSpot, Pipedrive, and Zoho." }
+      { title: "Chrome Extension", description: "Works on profiles, searches, groups, and events for maximum coverage.", verdict: "Verdict: Most intuitive in class." },
+      { title: "Mobile Data Focus", description: "Highly regarded for the accuracy of direct-dial and mobile numbers." },
+      { title: "Automated Workflows", description: "Enrich entire LinkedIn search results or event attendee lists automatically.", verdict: "Verdict: Great for scaling." },
+      { title: "Native Integrations", description: "Connects with Salesloft, Outreach, Lemlist, and major CRMs." }
     ]
   },
   accuracyData: {
-    mobile: "Direct-dial and verified mobile numbers included in standard credits.",
-    email: "95% Accuracy Guarantee (Real-time verification on export).",
-    decay: "Credit Rollover ensures you only pay for the data you use."
+    mobile: "Robust and highly accurate (Their core differentiator).",
+    email: "Variable (Some reports of outdated addresses and bounce risks).",
+    decay: "Real-time verification helps, but static database gaps exist."
   },
   pricing: {
-    minimum: "$99 - $199+ per month",
-    contract: "Essentials (170 credits) to Plus (400 credits). Custom Professional plan available.",
+    minimum: "$49 - $99+ per user/month",
+    contract: "Free Plan available. Starter (credits/month) to Enterprise (Unlimited).",
     hiddenCosts: [
-      "Cost per credit is higher than bulk competitors",
-      "Intent data locked behind custom pricing",
-      "Niche industries may have thinner coverage",
-      "API access requires Professional tier"
+      "Unused credits are forfeited upon cancellation",
+      "Email and phone data consume separate credits",
+      "Buggy performance in certain geographic regions",
+      "Credit system feels rigid for fluctuating outreach needs"
     ]
   },
   pros: [
-    "95% accuracy guarantee (Refunds on bounces)",
-    "No per-seat pricing (Unlimited team members)",
-    "Unused credits roll over every month",
-    "Real-time email verification during export"
+    "Exceptional ease of use and UI simplicity",
+    "Highly efficient for LinkedIn-heavy workflows",
+    "Superior mobile and direct-dial data quality",
+    "Strong automation for group/event enrichment"
   ],
   cons: [
-    "Higher cost-per-lead compared to Apollo or Snov.io",
-    "Credit limits on lower tiers can be restrictive",
-    "Buyer intent restricted to Professional plan",
-    "Strongest data is limited to US & Europe"
+    "Occasional email data quality inconsistencies",
+    "Credit system does not allow rollover upon cancellation",
+    "Extension can be glitchy or slow at times",
+    "Customer support response times vary"
   ],
   faq: [
-    { question: "Is UpLead legit?", answer: "Yes. It is highly trusted and used by sales teams at Microsoft, Google, and Dropbox." },
-    { question: "How does the accuracy guarantee work?", answer: "If an email provided by UpLead bounces, they refund the credit used for that contact." },
-    { question: "Does UpLead offer mobile numbers?", answer: "Yes, UpLead provides direct-dial and mobile numbers for many of its professional contacts." },
-    { question: "Is UpLead better than ZoomInfo?", answer: "UpLead is often preferred by SMBs for its transparent pricing and accuracy guarantee, while ZoomInfo is better for massive enterprise depth." }
+    { question: "Is Kaspr legit and GDPR compliant?", answer: "Yes. Kaspr provides verified data and asserts full compliance with GDPR and CCPA regulations." },
+    { question: "How does Kaspr compare to Skrapp.io?", answer: "Kaspr is often favored for phone numbers, while Skrapp.io is known for high-volume email exports from LinkedIn searches." },
+    { question: "Does Kaspr work with Sales Navigator?", answer: "Yes, the Chrome extension fully integrates with LinkedIn Sales Navigator and Recruiter Lite." },
+    { question: "Can I try Kaspr for free?", answer: "Yes, Kaspr offers a free-forever plan with a limited number of monthly credits." }
   ]
 };
